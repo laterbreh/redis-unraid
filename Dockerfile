@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt-get update \
-	&& apt-get install -y apt-get install redis-server \
+	&& apt-get install -y redis-server 
 	
 
 VOLUME ["/data"]
