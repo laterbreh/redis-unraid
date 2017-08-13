@@ -8,7 +8,8 @@ VOLUME ["/data"]
 
 WORKDIR /data
 
-CMD ["service", "redis", "start"]
+CMD ["redis-cli"]
+CMD ["ping"]
 
 #   process cluster webui
 EXPOSE 6379
